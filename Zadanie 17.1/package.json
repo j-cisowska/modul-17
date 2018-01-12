@@ -1,0 +1,16 @@
+{
+  "name": "zadanie171",
+  "version": "1.0.0",
+  "description": "expressjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Joanna Cisowska",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

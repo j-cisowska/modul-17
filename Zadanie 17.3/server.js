@@ -6,6 +6,9 @@ app.use('/shop', function(req, res, next) {
 	next();
 });
 
+app.get('/', function (req, res) {
+    res.send('Welcome to the shop, come inside!');
+});
 
 app.get('/shop', function (req, res) {
     console.log('Wyświetlenie to jest sklep');
